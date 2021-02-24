@@ -1,5 +1,17 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { #a{width: 50px;} }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { #a{width: 100px;} #navbarNavAltMarkup.active{width: 350;}}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { #a{width: 700px;} #navbarNavAltMarkup.active{width: 350;}}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { #a{width: 900px;} }
+
 /* 
 
     You can write your own styles here...
